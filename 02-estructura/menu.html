@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <dialog id="modal"> 
+        <h2>Historia breve</h2>
+        <p>nuestra institución fue creada</p>
+        <p>para estblecer control en empresas</p>
+        <button id="close">Cerrar</button>
+        </dialog> 
+        <button id="button">Abrir modal</button>
+    <details>
+        fue creado en
+    </details> 
+    
+</body>
+<script>
+    const modal =document.getElementById('modal');
+    const button =document.getElementById('button');
+    const close =document.getElementById('modal');
+button.addEventListener('click',()=>{
+    modal.setAttribute('open','true')
+})
+close.addEventListener('click',()=>{
+    modal.removeAttribute('open')
+})
+</script>
+</html>

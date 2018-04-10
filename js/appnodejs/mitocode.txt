@@ -1,0 +1,1 @@
+Informacion del cpu: [{"model":"AMD Athlon(tm) II X2 270 Processor","speed":3415,"times":{"user":2440375,"nice":0,"sys":1739921,"idle":7359671,"irq":200593}},{"model":"AMD Athlon(tm) II X2 270 Processor","speed":3415,"times":{"user":2505281,"nice":0,"sys":1391875,"idle":7642593,"irq":63484}}] 
