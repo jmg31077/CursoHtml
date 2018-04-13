@@ -1,5 +1,5 @@
 const fetch= require('node-fetch');
-fetch('https://github.com/jmg31077/empoderar.git').then((res)=>{
+fetch('https://api.github.com/users/cursohtml').then((res)=>{
     return res.json();
 }).then((json)=>{
     console.log(json);
